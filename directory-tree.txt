@@ -1,0 +1,57 @@
+lib/
+├── core/
+│   ├── constants/
+│   │   ├── api_endpoints.dart
+│   │   ├── app_colors.dart
+│   │   └── app_strings.dart
+│   ├── network/
+│   │   ├── api_exception.dart
+│   │   └── api_service.dart
+│   ├── utils/
+│       ├── helpers.dart
+│       └── validator.dart
+├── features/
+│   ├── auth/
+│   │   ├── cubit/
+│   │   ├── data/
+│   │   ├── view/
+│   │   │   ├── login_view.dart
+│   │   │   └── signup_view.dart
+│   │   ├── widgets/
+│   ├── explore/
+│   ├── favorite/
+│   │   ├── cubit/
+│   │   │   └── favorite_cubit.dart
+│   │   ├── data/
+│   │   ├── view/
+│   │       └── favorite_view.dart
+│   ├── home/
+│   │   ├── animation/
+│   │   │   └── animate_route.dart
+│   │   ├── data/
+│   │   ├── model/
+│   │   │   └── card_item.dart
+│   │   ├── view/
+│   │   │   ├── home_view.dart
+│   │   │   └── more_view.dart
+│   │   ├── widgets/
+│   │       ├── card_widgets.dart
+│   │       ├── header_hero.dart
+│   │       ├── slider_section.dart
+│   │       └── user_header.dart
+│   ├── onboarding/
+│   │   ├── cubit/
+│   │   │   └── onboarding_cubit.dart
+│   │   ├── view/
+│   │   │   └── onboarding_view.dart
+│   │   ├── widgets/
+│   │       └── onboarding_widget.dart
+│   ├── profile/
+├── shared/
+│   ├── custom_btn.dart
+│   ├── custom_text.dart
+│   ├── custom_txtfield.dart
+│   └── favorite_button.dart
+├── main.dart
+├── root.dart
+└── splash.dart

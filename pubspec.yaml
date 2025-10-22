@@ -1,0 +1,65 @@
+name: real_estate
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # أيقونات iOS
+  cupertino_icons: ^1.0.8
+
+  # شاشة البداية
+  introduction_screen: ^3.1.0
+
+  # إدارة الحالة
+  get: ^4.7.2
+
+  # مسافات بين العناصر
+  gap: ^3.0.1
+
+  flutter_bloc: ^8.1.4
+
+  provider: ^6.1.2
+
+
+  # شريط تنقل سفلي احترافي
+  persistent_bottom_nav_bar: ^6.2.1
+
+  # ✅ دعم اللغات (عشان العربي يشتغل صح)
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/test/
+    - assets/icons/
+    - assets/fonts/
+
+  # ✅ الخط العربي (Cairo)
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Cairo-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Cairo-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Cairo-ExtraBold.ttf
+          weight: 800
